@@ -1,0 +1,102 @@
+.page{
+    display: none;
+}
+.active{
+    display: block;
+    
+}
+ header{
+      display: flex;
+    justify-content: center;
+     color: aqua;
+     background-color: black
+    }
+.formBox{
+    display: flex;
+    justify-content: center;
+    color: brown;
+}
+.main p button{
+        width: 25%;
+        background-color:green; 
+    border: none;
+    color: white;
+    
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    }
+ li{
+        justify-content: center;
+        display: flex;
+        color: brown;
+        font-size: 1rem;
+    }
+    
+@media(min-width:500px) and (max-width:999px){
+  .formBox{
+    display: flex;
+    justify-content: center;
+    color: brown;
+}
+    .main p button{
+        width: 25%;
+        background-color:green; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    }
+   header{
+      display: flex;
+    justify-content: center;
+     color: aqua;
+     background-color: black;
+    }
+    
+    li{
+        justify-content: center;
+        display: flex;
+        color: brown;
+        font-size: 3rem;
+    }
+}
+@media(min-width:1000px){
+    .formBox{
+    display: flex;
+    justify-content: center;
+    color: brown;
+}
+    .main p button{
+        width: 25%;
+        background-color:green; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    }
+   header{
+      display: flex;
+    justify-content: center;
+     color: aqua;
+     background-color: black;
+    }
+    
+    li{
+        justify-content: center;
+        display: flex;
+        color: brown;
+        font-size: 2rem;
+    }
+    
+}
